@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1397个分流规则
+#!count=支持约1406个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/RStoreCom
-#!date=2026-09-08 07:53:07
+#!date=2026-10-01 00:16:28
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -62,14 +62,17 @@ ip-cidr, 47.99.42.29/32, reject
 ip-cidr, 59.82.113.10/32, reject
 ip-cidr, 59.82.113.219/32, reject
 ip-cidr, 59.82.113.8/32, reject
+ip-cidr, 59.82.120.166/32, reject
 ip-cidr, 59.82.120.171/32, reject
 ip-cidr, 59.82.120.210/32, reject
 ip-cidr, 59.82.120.252/32, reject
 ip-cidr, 59.82.120.33/32, reject
 ip-cidr, 59.82.121.172/32, reject
+ip-cidr, 59.82.121.215/32, reject
 ip-cidr, 59.82.121.216/32, reject
 ip-cidr, 59.82.121.222/32, reject
 ip-cidr, 59.82.121.72/32, reject
+ip-cidr, 59.82.133.157/32, reject
 ip-cidr, 59.82.133.36/32, reject
 ip-cidr, 59.82.133.78/32, reject
 ip-cidr, 59.82.14.1/32, reject
@@ -136,6 +139,7 @@ host, adpinpai.video.weibocdn.com, reject
 host, ads-img-qc.xhscdn.com, reject
 host, ads-video-al.xhscdn.com, reject
 host, ads-video-qc.xhscdn.com, reject
+host, ads-vp5.xhscdn.com, reject
 host, ads.auctions.yahoo.com, reject
 host, ads.babytree.com, reject
 host, ads.cup.com.cn, reject
@@ -210,12 +214,14 @@ host, apm.pinduoduo.com, reject
 host, apmplus.volces.com, reject
 host, app-ad.variflight.com, reject
 host, app-analytics-services.com, reject
+host, app-monitor.ele.me, reject
 host, appcloud.zhihu.com, reject
 host, appcloud2.in.zhihu.com, reject
 host, appgo.189.cn, reject
 host, appgoad.189.cn, reject
 host, apple.comscoreresearch.com, reject
 host, applog-perf.uc.cn, reject
+host, applog.paas.cmbchina.com, reject
 host, applog.zijieapi.com, reject
 host, apps-booster.xiaopeng.com, reject
 host, appsupport.qq.com, reject
@@ -481,6 +487,7 @@ host, smartop-sdkapi-ipv6.jiguang.cn, reject
 host, smartop-sdkapi.jiguang.cn, reject
 host, sofire.baidu.com, reject
 host, soul-ad.soulapp.cn, reject
+host, spider-tracker.xiaohongshu.com, reject
 host, splashimgbssdl.yun.kugou.com, reject
 host, splashqqlive.gtimg.com, reject
 host, startup.umetrip.com, reject
@@ -519,6 +526,7 @@ host, tosv.byted.org, reject
 host, toutiao-frontier.snssdk.com, reject
 host, tp2p.kg.qq.com, reject
 host, tpstelemetry.tencent.com, reject
+host, trace.rtbasia.com, reject
 host, track.58.com, reject
 host, track.tiara.daum.net, reject
 host, track.tiara.kakao.com, reject
@@ -1331,6 +1339,7 @@ host-suffix, zemanta.com, reject
 host-suffix, zhengxiaoliu.top, reject
 host-suffix, znsv.baidu.com, reject
 host-suffix, zymo.mps.weibo.com, reject
+host-suffix, zzspider.com, reject
 host-keyword, -ad.byteoversea.com, reject
 host-keyword, -adsystem.com, reject
 host-keyword, -analytics.bytescm.com, reject
